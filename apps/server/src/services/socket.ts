@@ -10,7 +10,8 @@ const pub = new Redis({
 const sub = new Redis({
        host:'',
     port: 1,
-    username:''
+    username:'',
+    password:''
 });
 class SocketService{
     private _io: Server
